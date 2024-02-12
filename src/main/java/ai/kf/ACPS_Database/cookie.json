@@ -1,0 +1,28 @@
+[
+  {
+    "domain": "crvs-institute.banbeis.gov.bd",
+    "expirationDate": 1701201304.727752,
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "XSRF-TOKEN",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": false,
+    "session": false,
+    "storeId": null,
+    "value": "eyJpdiI6ImxZTEVVTUt3MHRVNldrL2dHTG9YcGc9PSIsInZhbHVlIjoiZTB4OE9ZNDdvVUsvb0xDek9SWjYyU3VQMUNRMmFQNk9lTTJCUDgvQ21KZkxYdWlVckFNc0xQSkNVRjlEZzM0OXRWUWJLTGF0aGt4WThZWElaaGZZQlFpNFB1VXQ2Zjl3UjNreURweWh4dFpSTXNocE90UUFTRUpRR2hFeWRKVHciLCJtYWMiOiJjZjNjMDJlNWQxYTRhNzU0ZmZmYjQ0YTQ5Y2NjOGM5YzE4NmZjMDA2MzkxMDNhYjQ4MWU1YWEyMDljMGQ4YTEwIn0%3D"
+  },
+  {
+    "domain": "crvs-institute.banbeis.gov.bd",
+    "expirationDate": 1701201304.727828,
+    "hostOnly": true,
+    "httpOnly": true,
+    "name": "crvs_session",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": false,
+    "session": false,
+    "storeId": null,
+    "value": "eyJpdiI6Ikw4UHBYWk5XZHk3bjQ0TVV3d1l5S2c9PSIsInZhbHVlIjoidWJvS3VXWFA2NStacEtjVm8zNngyaHpGT0RyUWJvNm1NOTBwdFhHbkFjNktkdm9sZXJZSVEyVFpqQ2NHL0YxR2VWYzhhb0Z5ZzJOUzcvMXVUeUdVeUNRaHBKWUFUb3loQXJieGF0Mk1PTVJoNkpMb1pPcXJiRXVhNm1XWmNiT1IiLCJtYWMiOiI3MWJhZmY4M2VmMGYwMmFlZDU5MDA1Mjc2MjVjMzMyODE1M2Q3NjY3YzdkZjdiY2M3MGNmM2RkMTU2NDY4ZmRmIn0%3D"
+  }
+]

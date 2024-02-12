@@ -20,8 +20,13 @@ dependencies {
 
     //Gson
     implementation 'com.google.code.gson:gson:2.8.9'
+    //json simple
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    implementation 'com.googlecode.json-simple:json-simple:1.1'
     //jsoup
     implementation 'org.jsoup:jsoup:1.14.3'
+    implementation group: 'org.apache.poi', name: 'poi', version: '5.1.0'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.1.0'
 
 }
 
