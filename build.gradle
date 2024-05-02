@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm'
 }
 
 group = 'ai.kf'
@@ -28,8 +29,17 @@ dependencies {
     implementation group: 'org.apache.poi', name: 'poi', version: '5.1.0'
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.1.0'
 
+    //jackson
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
 }
 
 test {
     useJUnitPlatform()
+}
+kotlin {
+    jvmToolchain(17)
 }
