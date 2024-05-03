@@ -47,7 +47,7 @@ public class ProthomAlo {
                     containsDeath = true;
                 }
             }
-            if (containsHeat && containsDeath) {
+            if (containsHeat) {
                 expected.add(item);
             }
         }
