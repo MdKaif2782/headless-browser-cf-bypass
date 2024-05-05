@@ -87,6 +87,7 @@ public class ProthomAlo {
         for (News.Item item : expected) {
             count++;
             System.out.println(count+ " "+item.getHeadline());
+
         }
     }
 
