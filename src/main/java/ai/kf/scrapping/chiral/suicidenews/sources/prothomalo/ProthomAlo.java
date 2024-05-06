@@ -1,5 +1,6 @@
 package ai.kf.scrapping.chiral.suicidenews.sources.prothomalo;
 
+import ai.kf.scrapping.chiral.suicidenews.Scrap;
 import ai.kf.scrapping.chiral.suicidenews.sources.prothomalo.model.News;
 import com.google.gson.Gson;
 import org.apache.logging.log4j.LogManager;
@@ -93,18 +94,7 @@ public class ProthomAlo {
 
 
     public static String getJsonRes(String link) throws IOException {
-        URL url = new URL(link);
-        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        connection.setRequestMethod("GET");
-        connection.setRequestProperty("Content-Type", "application/json");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-        StringBuilder response = new StringBuilder();
-        String line;
-        while ((line = reader.readLine()) != null) {
-            response.append(line);
-        }
-        reader.close();
-        return response.toString();
+        return Scrap.getJsonRes(link);
     }
 }
 
